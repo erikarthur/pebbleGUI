@@ -1,0 +1,37 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "erik@arthurweb.org",
+    "longName": "gui",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/play.png",
+                "name": "play_button",
+                "type": "png-trans"
+            },
+            {
+                "characterRegex": "[0-9:APM]",
+                "file": "fonts/Bebas Neue2.ttf",
+                "name": "bebas_18",
+                "type": "font"
+            },
+            {
+                "characterRegex": "[0-9:APM]",
+                "file": "fonts/Bebas Neue.ttf",
+                "name": "bebas_49",
+                "type": "font"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "gui",
+    "uuid": "608bb919-f225-4ed0-9eb3-56b947677da2",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
