@@ -1,7 +1,7 @@
 {
     "appKeys": {},
     "capabilities": [
-        ""
+        "location"
     ],
     "companyName": "erik@arthurweb.org",
     "longName": "gui",
@@ -9,12 +9,27 @@
     "resources": {
         "media": [
             {
+                "file": "images/pauseIcon.png",
+                "name": "pause_icon",
+                "type": "png"
+            },
+            {
+                "file": "images/lapStop.png",
+                "name": "stop_icon",
+                "type": "png"
+            },
+            {
+                "file": "images/lapIcon2.png",
+                "name": "lap_icon",
+                "type": "png"
+            },
+            {
                 "file": "images/play.png",
-                "name": "play_button",
+                "name": "play_icon",
                 "type": "png-trans"
             },
             {
-                "characterRegex": "[0-9:APM]",
+                "characterRegex": "[0-9: APM]",
                 "file": "fonts/Bebas Neue2.ttf",
                 "name": "bebas_18",
                 "type": "font"
@@ -29,6 +44,10 @@
     },
     "sdkVersion": "3",
     "shortName": "gui",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
     "uuid": "608bb919-f225-4ed0-9eb3-56b947677da2",
     "versionLabel": "1.0",
     "watchapp": {
